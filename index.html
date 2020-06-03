@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			td
+			{
+				border: 2px black solid;
+			}
+			.deleteButton
+			{
+				background-color: red;
+			}
+		</style>
+	</head>
+	<body>
+	<h2>
+		AJAX + RESTful PHP/SQL backend from scratch. enter a name and click away!
+	</h2>
+		<label> who are you?
+                        <input type="text" name = "nameText" id="nameText">
+                </label>
+                <br>
+                <label> like red?
+                        <input type="checkbox" name = "redCheck" id="redCheck">
+                </label>
+                <br>
+                <label> like green?
+                        <input type="checkbox" name="greenCheck" id="greenCheck">
+                </label>
+                <br>
+                <label> like blue?
+                        <input type="checkbox" name = "blueCheck" id="blueCheck">
+                </label>
+                <br>
+		<br>
+		<div id="results">
+			<table id="resultsTable">
+			</table>
+		</div>
+
+	</body>
+	<script src="js/xmlHttpRequest.js"></script>
+	<!-- <script src="js/fetch.js"></script> -->
+</html>
