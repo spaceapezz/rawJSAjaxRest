@@ -19,17 +19,21 @@ with mysql db.
 
 	$requestMethod = $_SERVER['REQUEST_METHOD'];
 	$uriArray = explode('/', $_SERVER['REQUEST_URI']);
-	
-	if(count($uriArray) == 4)
+	error_log(sprintf("exploded url %s has %b elements", $_SERVER['REQUEST_URI'], count($uriArray)));
+	foreach($uriArray as $parseBit)
+	{
+		error_log($parseBit);
+	}	
+	if(count($uriArray) == 3)
 	{
 		$dataMode = "collection";
-		$resource = $uriArray[2];
+		$resource = $uriArray[1];
 	}
 	else
 	{
 		$dataMode = "document";
-		$resource = $uriArray[2];
-		$document = $uriArray[3];
+		$resource = $uriArray[1];
+		$document = $uriArray[2];
 	}
 
 	

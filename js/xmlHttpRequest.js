@@ -1,6 +1,11 @@
 /*
-	functions and helper functions for making http GET 
-	and POST requests using native XMLHttpRequest object.
+Brian Reza Smith
+   */
+
+/*
+	functions and helper functions for making http GET, POST, abd DELETE
+       	requests using native XMLHttpRequest object. Also, client-side functions specific to 
+	rawJSAjaxRest app.
 	
 	includes the following:
 
