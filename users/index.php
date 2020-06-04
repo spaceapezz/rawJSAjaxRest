@@ -19,11 +19,6 @@ with mysql db.
 
 	$requestMethod = $_SERVER['REQUEST_METHOD'];
 	$uriArray = explode('/', $_SERVER['REQUEST_URI']);
-	error_log(sprintf("exploded url %s has %b elements", $_SERVER['REQUEST_URI'], count($uriArray)));
-	foreach($uriArray as $parseBit)
-	{
-		error_log($parseBit);
-	}	
 	if(count($uriArray) == 3)
 	{
 		$dataMode = "collection";
