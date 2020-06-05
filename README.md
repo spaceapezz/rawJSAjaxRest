@@ -3,7 +3,7 @@ Brian Reza Smith
 */
 
 
-rawJSAjaxRest is an experiment to teach myself how web frameworks work by writing an web app 
+rawJSAjaxRest is an experiment to teach myself how web frameworks work by writing a web app 
 from scratch that allows asynchronous front-end functionality and 
 database operations based on a RESTful architecture. 
 It uses the native js xmlHttpRequest object and promises to do asynchronous http requests which, 
