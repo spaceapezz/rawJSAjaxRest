@@ -4,7 +4,7 @@ Brian Reza Smith
 
 
 rawJSAjaxRest is an experiment to teach myself how web frameworks work by writing a web app 
-in raw js and php that allows asynchronous front-end functionality and 
+in raw JS and PHP that allows asynchronous front-end functionality and 
 database operations based on a RESTful architecture. 
 It uses the native js xmlHttpRequest object and promises to do asynchronous http requests which, 
 based on uri and request method, are interpreted by a php backend as CRUD operations on mysql db. 
