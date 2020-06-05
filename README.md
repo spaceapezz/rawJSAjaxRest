@@ -14,5 +14,5 @@ the project is meant to be able to extended.
 
 	-all request payloads and responses are encoded as JSON
 	-you retrieve all documents in the resource "users" by going to url "users/"
-	-you can read a single document by going to url "users/<primary key>/" 
+	-you can retrieve a single document by going to url "users/<primary key>/" 
 	-php handles requests based on http request method and the parsed url  
