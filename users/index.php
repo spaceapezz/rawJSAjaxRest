@@ -78,7 +78,7 @@ with mysql db.
 			break;
 			
 		default:
-			getAll($myPDO, $resource);
+			getAllRecords($myPDO, $resource);
 	}
 
 
